@@ -32,6 +32,18 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 }
 
-@media (max-width: 1440px) {
+.btn{
+	font-size: 14px;
+	font-family: $heading-font;
+	padding: 20px 40px;
+}
 
+@media (max-width: 576px) {
+	#banner {
+		.content {
+			h1{
+				font-size: 48px;
+			}
+		}
+	}
 }

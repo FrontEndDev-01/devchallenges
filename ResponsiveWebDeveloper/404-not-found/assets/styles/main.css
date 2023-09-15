@@ -9769,4 +9769,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   font-weight: 700;
 }
 
+.btn {
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
+  padding: 20px 40px;
+}
+
+@media (max-width: 576px) {
+  #banner .content h1, #banner .content .h1 {
+    font-size: 48px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
