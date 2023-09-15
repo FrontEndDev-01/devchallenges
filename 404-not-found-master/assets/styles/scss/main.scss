@@ -1,0 +1,37 @@
+@import './custom-variable.scss';
+@import '../bootstrap-5.0.2/scss/bootstrap.scss';
+
+body {
+	background-color: $white;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: $heading-font;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	.logo {
+		font-family: $body-font;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 24px;
+	}
+}
+
+#banner {
+	.content {
+		h1{
+			font-size: 64px;
+			font-weight: 700;
+		}
+	}
+}
+
+@media (max-width: 1440px) {
+
+}
